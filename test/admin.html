@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Admin</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header-admin">
+			<h1>Admin</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="admin.html">Trang chủ</a></li>
+				<li><a href="admin.html">Danh mục</a></li>
+				<li><a href="danhsach_loaihang.html">Hàng hóa</a></li>
+				<li><a href="#">Khách hàng</a></li>
+				<li><a href="#">Bình luận</a></li>
+				<li><a href="#">Thống kê</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="title">
+				<h1>THÊM MỚI LOẠI HÀNG HÓA</h1>
+			</div>
+			<div class="form-content">
+				<form action="#" method="POST">
+					<div class="form-group">
+						<div>Mã loại</div>
+						<input type="text" name="maloai" disabled>
+					</div>
+					<div class="form-group">
+						<div>Tên loại</div>
+						<input type="text" name="tenloai">
+					</div>
+					<div class="form-group">
+						<input type="submit" name="btn_add" value="THÊM MỚI">
+						<input type="reset" name="btn_reset" value="NHẬP LẠI">
+						<a href="danhsach_loaihang.html"><input type="button" name="btn_list" value="DANH SÁCH"></a>
+					</div>
+				</form>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
